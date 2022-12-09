@@ -1,0 +1,11 @@
+pandas
+
+pythainlp
+
+StringDist 
+
+tqdm
+
+os
+
+https://github.com/kpu/kenlm/archive/master.zip
