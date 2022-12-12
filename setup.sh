@@ -8,12 +8,10 @@ cmake ..
 
 make -j2
 
-cd ../..
-
 # Trainning phrase (pre-setting)
-cp -av './data/lm.txt' './kenlm/build'
+cp -av '../../data/lm.txt' '.'
 
-bin/lmplz -o 4 --text ./kenlm/build/lm.txt --arpa ./model/p2g.arpa --discount_fallback
+bin/lmplz -o 4 --text ./lm.txt --arpa ../../model/p2g_1.arpa --discount_fallback
 
 pip install gdown
 
